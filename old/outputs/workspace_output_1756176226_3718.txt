@@ -1,0 +1,11 @@
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  13.087 s
+[[1;34mINFO[m] Finished at: 2025-08-26T02:43:29Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m on project [36mRoleChat[m: [1;31mCompilation failure[m
+[[1;31mERROR[m] [1;31m/workspace/src/main/java/com/rolechat/commands/ChannelCommand.java:[45,56] cannot find symbol[m
+[[1;31mERROR[m] [1;31m  symbol:   method getListeners(com.rolechat.RoleChat)[m
+[[1;31mERROR[m] [1;31m  location: interface org.bukkit.plugin.PluginManager[m
+[[1;31mERROR[m] [1;31m[m
+[[1;31mERROR[m] -> [1m[Help 1][m

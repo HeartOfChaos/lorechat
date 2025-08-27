@@ -1,0 +1,16 @@
+/workspace/src/main/java/com/rolechat/listeners/ChatListener.java
+/workspace/src/main/java/com/rolechat/commands/RealnameCommand.java
+/workspace/src/main/java/com/rolechat/commands/SpyCommand.java
+/workspace/src/main/java/com/rolechat/commands/ToggleOOCCommand.java
+/workspace/src/main/java/com/rolechat/commands/DialoguePrefCommand.java
+/workspace/src/main/java/com/rolechat/managers/PlayerManager.java
+/workspace/src/main/java/com/rolechat/commands/RoleChatCommand.java
+/workspace/src/main/java/com/rolechat/commands/TabCompleter.java
+/workspace/src/main/java/com/rolechat/commands/ChannelCommand.java
+/workspace/src/main/java/com/rolechat/utils/ChatUtils.java
+/workspace/src/main/java/com/rolechat/RoleChat.java
+/workspace/src/main/java/com/rolechat/commands/NicknameCommand.java
+/workspace/src/main/java/com/rolechat/commands/EmotePrefCommand.java
+/workspace/src/main/java/com/rolechat/commands/HeardYouCommand.java
+/workspace/src/main/java/com/rolechat/managers/ConfigManager.java
+/workspace/src/main/java/com/rolechat/models/PlayerData.java

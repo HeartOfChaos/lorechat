@@ -1,0 +1,16 @@
+com/rolechat/commands/HeardYouCommand.class
+com/rolechat/commands/ToggleOOCCommand.class
+com/rolechat/utils/ChatUtils.class
+com/rolechat/commands/SpyCommand.class
+com/rolechat/commands/RoleChatCommand.class
+com/rolechat/commands/TabCompleter.class
+com/rolechat/commands/EmotePrefCommand.class
+com/rolechat/models/PlayerData.class
+com/rolechat/RoleChat.class
+com/rolechat/commands/DialoguePrefCommand.class
+com/rolechat/commands/RealnameCommand.class
+com/rolechat/managers/PlayerManager.class
+com/rolechat/commands/ChannelCommand.class
+com/rolechat/commands/NicknameCommand.class
+com/rolechat/managers/ConfigManager.class
+com/rolechat/listeners/ChatListener.class

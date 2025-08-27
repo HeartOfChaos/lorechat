@@ -1,0 +1,124 @@
+name: RoleChat
+version: '1.0-SNAPSHOT'
+main: com.rolechat.RoleChat
+api-version: '1.13'
+authors: [NinjaTech]
+description: A roleplay chat plugin with channels, nicknames, and spy functionality
+commands:
+  spy:
+    description: Toggle spy mode to see all messages
+    usage: /spy
+    permission: rolechat.spy
+  nickname:
+    description: Set your roleplay nickname
+    usage: /nickname <nickname>
+    permission: rolechat.nickname
+    aliases: [nick]
+  realname:
+    description: Get the real name of a player by their nickname
+    usage: /realname <nickname>
+    permission: rolechat.realname
+  whisper:
+    description: Set whisper as your current channel or send a whisper message
+    usage: /whisper [message]
+    permission: rolechat.channel.whisper
+    aliases: [w]
+  shout:
+    description: Set shout as your current channel or send a shout message
+    usage: /shout [message]
+    permission: rolechat.channel.shout
+    aliases: [s]
+  talk:
+    description: Set talk as your current channel or send a talk message
+    usage: /talk [message]
+    permission: rolechat.channel.talk
+    aliases: [t]
+  ooc:
+    description: Set OOC as your current channel or send an OOC message
+    usage: /ooc [message]
+    permission: rolechat.channel.ooc
+    aliases: [o]
+  toggleooc:
+    description: Toggle visibility of OOC messages
+    usage: /toggleooc
+    permission: rolechat.toggleooc
+  dialoguepref:
+    description: Set your dialogue color preference
+    usage: /dialoguepref <color code>
+    permission: rolechat.dialoguepref
+  emotepref:
+    description: Set your emote color preference
+    usage: /emotepref <color code>
+    permission: rolechat.emotepref
+  heardyou:
+    description: Toggle the 'No one heard you' message
+    usage: /heardyou
+    permission: rolechat.heardyou
+  rolechat:
+    description: Main command for RoleChat plugin
+    usage: /rolechat [reload|help|restrict]
+    permission: rolechat.admin
+permissions:
+  rolechat.*:
+    description: Gives access to all RoleChat commands
+    children:
+      rolechat.spy: true
+      rolechat.nickname: true
+      rolechat.realname: true
+      rolechat.channel.*: true
+      rolechat.toggleooc: true
+      rolechat.admin: true
+      rolechat.allcolors: true
+      rolechat.dialoguepref: true
+      rolechat.emotepref: true
+      rolechat.heardyou: true
+      rolechat.restrict: true
+  rolechat.spy:
+    description: Allows player to use spy mode
+    default: op
+  rolechat.nickname:
+    description: Allows player to set a nickname
+    default: true
+  rolechat.realname:
+    description: Allows player to see real names
+    default: op
+  rolechat.channel.*:
+    description: Allows access to all chat channels
+    children:
+      rolechat.channel.whisper: true
+      rolechat.channel.talk: true
+      rolechat.channel.shout: true
+      rolechat.channel.ooc: true
+  rolechat.channel.whisper:
+    description: Allows access to whisper channel
+    default: true
+  rolechat.channel.talk:
+    description: Allows access to talk channel
+    default: true
+  rolechat.channel.shout:
+    description: Allows access to shout channel
+    default: true
+  rolechat.channel.ooc:
+    description: Allows access to OOC channel
+    default: true
+  rolechat.toggleooc:
+    description: Allows toggling OOC visibility
+    default: true
+  rolechat.dialoguepref:
+    description: Allows setting dialogue color preference
+    default: true
+  rolechat.emotepref:
+    description: Allows setting emote color preference
+    default: true
+  rolechat.heardyou:
+    description: Allows toggling the 'No one heard you' message
+    default: op
+  rolechat.restrict:
+    description: Allows adding color codes to the restricted list
+    default: op
+  rolechat.admin:
+    description: Allows access to admin commands
+    default: op
+  rolechat.allcolors:
+    description: Allows use of restricted color codes
+    default: op
