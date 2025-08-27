@@ -1,0 +1,53 @@
+# RoleChat Configuration
+
+# Default colors for new players
+defaults:
+  dialogue-color: '&f'  # Default color for dialogue (text in quotes)
+  emote-color: '&7'     # Default color for emotes (text outside quotes)
+
+# List of color codes that require the rolechat.allcolors permission
+restricted-colors:
+  - '&k'  # Obfuscated
+  - '&l'  # Bold
+  - '&m'  # Strikethrough
+  - '&n'  # Underline
+  - '&o'  # Italic
+  - '&r'  # Reset
+
+# Chat format settings
+formats:
+  ooc: '&8[OOC] &f{displayname}: &7{message}'
+  shout: '&4[Shout] {nickname}: {message}'
+  talk: '{nickname}: {message}'
+  whisper: '&7[Whisper] {nickname}: {message}'
+  spy: '&6[Spy] {format}'
+
+# Chat range settings (in blocks)
+ranges:
+  shout: 60
+  talk: 30
+  whisper: 3
+
+# Message settings
+messages:
+  no-one-heard: '&7No one heard you.'
+  spy-enabled: '&6Spy mode enabled.'
+  spy-disabled: '&6Spy mode disabled.'
+  ooc-toggled-on: '&7OOC chat is now visible.'
+  ooc-toggled-off: '&7OOC chat is now hidden.'
+  nickname-set: '&7Your nickname has been set to: {nickname}'
+  nickname-restricted: '&cYou do not have permission to use restricted color codes.'
+  color-restricted: '&cYou do not have permission to use restricted color codes.'
+  dialogue-color-set: '&7Your dialogue color has been set to: {color}'
+  emote-color-set: '&7Your emote color has been set to: {color}'
+  realname-result: '&7Player with nickname {nickname} is {realname}.'
+  realname-not-found: '&cNo player found with that nickname.'
+  channel-set: '&7Your current channel has been set to: {channel}'
+  no-permission: '&cYou do not have permission to use this command.'
+  reload-success: '&aRoleChat configuration reloaded successfully.'
+
+# Show "No one heard you" message when no one hears a message
+heardyou: true
+
+# Debug mode (set to true for additional console logging)
+debug: false

@@ -1,0 +1,50 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------------< [0;36mcom.rolechat:RoleChat[0;1m >------------------------[m
+[[1;34mINFO[m] [1mBuilding RoleChat 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mRoleChat[0;1m ---[m
+[[1;34mINFO[m] Deleting /workspace/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mRoleChat[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mRoleChat[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 16 source files to /workspace/target/classes
+[[1;34mINFO[m] /workspace/src/main/java/com/rolechat/listeners/ChatListener.java: /workspace/src/main/java/com/rolechat/listeners/ChatListener.java uses or overrides a deprecated API.
+[[1;34mINFO[m] /workspace/src/main/java/com/rolechat/listeners/ChatListener.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] COMPILATION ERROR : 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] /workspace/src/main/java/com/rolechat/commands/DialoguePrefCommand.java:[53,94] cannot find symbol
+  symbol:   variable ChatColor
+  location: class com.rolechat.commands.DialoguePrefCommand
+[[1;31mERROR[m] /workspace/src/main/java/com/rolechat/commands/EmotePrefCommand.java:[53,91] cannot find symbol
+  symbol:   variable ChatColor
+  location: class com.rolechat.commands.EmotePrefCommand
+[[1;34mINFO[m] 2 errors 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  3.515 s
+[[1;34mINFO[m] Finished at: 2025-08-26T03:44:09Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m on project [36mRoleChat[m: [1;31mCompilation failure[m: Compilation failure: 
+[[1;31mERROR[m] /workspace/src/main/java/com/rolechat/commands/DialoguePrefCommand.java:[53,94] cannot find symbol
+[[1;31mERROR[m]   symbol:   variable ChatColor
+[[1;31mERROR[m]   location: class com.rolechat.commands.DialoguePrefCommand
+[[1;31mERROR[m] /workspace/src/main/java/com/rolechat/commands/EmotePrefCommand.java:[53,91] cannot find symbol
+[[1;31mERROR[m]   symbol:   variable ChatColor
+[[1;31mERROR[m]   location: class com.rolechat.commands.EmotePrefCommand
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[0m[0m
