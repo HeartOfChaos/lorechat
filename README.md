@@ -9,8 +9,7 @@ A comprehensive roleplay chat plugin for Spigot servers with channels, nicknames
 - **Color Preferences**: Set preferred colors for dialogue and emotes
 - **Spy Mode**: Admins can see all messages across all channels
 - **Message Formatting**: Different formats for each channel
-- **Dialogue Detection**: Automatically colors text in quotation marks differently
-- **Hover Information**: See who heard your message by hovering over it
+- **Dialogue Detection**: Text in quotation marks can be a different color! All per-person, so it can be customized.
 - **OOC Toggle**: Ability to hide OOC chat
 
 ## Commands
